@@ -5,6 +5,13 @@ This is a mini widget application for showing weather forecast for multiple citi
 
 ## Development server
 Run `npm install latest` to install dependencies required for running the application.
+
+Installing external library bootstrap for responsive webpage:- `npm install bootstrap` and Next, you also need to install jQuery using the following command: `npm install jquery`
+Open the angular.json file of your project and include:
+node_modules/bootstrap/dist/css/bootstrap.css in the projects->architect->build->styles array,
+node_modules/bootstrap/dist/js/bootstrap.js in the projects->architect->build->scripts array,
+node_modules/bootstrap/dist/js/bootstrap.js in the projects->architect->build->scripts array
+
 Run `ng serve` or `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
